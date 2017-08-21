@@ -1,6 +1,13 @@
 # Treinamento de Angular 2+
-[Angular Oficial](https://angular.io/)
+[Angular Oficial][angular]
+## Ambiente de Desenvolvimento
+### Requisitos
+* [Node Js][node]
 
+``` shell
+    $ npm install -g @angular/cli
+    $ npm install -g typescript
+```
 ### Componentes
 Encapsula : 
 * Template
@@ -18,3 +25,7 @@ Responsável por modificar elementos DOM e/ou seu comportamento
 
 ### Diretiva
 Responsável por modificar elementos DOM e/ou seu comportamento
+
+
+[angular]: https://angular.io/
+[node]: https://nodejs.org
