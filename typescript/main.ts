@@ -26,3 +26,5 @@ class Matematica {
         return x+y;
     }
 }
+
+var n1: String = "teste";

@@ -1,5 +1,6 @@
 # Treinamento de Angular 2+
 [Angular Oficial][angular]
+[ES 6][es6]
 ## Ambiente de Desenvolvimento
 ### Requisitos
 * [Node Js][node]
@@ -52,3 +53,4 @@ ou
 
 [angular]: https://angular.io/
 [node]: https://nodejs.org
+[es6]: http://es6-features.org/#Constants
