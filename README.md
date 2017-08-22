@@ -48,6 +48,11 @@ Ajuda a organizar a aplicação e a modularizar.
 ### Templates 
 Contém os códigos html para ser utilizados nos componentes.
 
+### Data Binding 
+É a forma de associar informações do component para o template e vice-versa.
+* Interpolation : `{{ valor }}` onde `valor` é um objeto do componente.
+* Property binding : `[propriedade]="valor"`.
+* Two Way Data Binding : Valor do template e do componente atualizados ao mesmo tempo.
 
 ## Criando primeiro projeto
 
