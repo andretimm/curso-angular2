@@ -84,6 +84,18 @@ ou
     $ ng g m meu-modulo
 ```
 
+#### Criar serviços com o CLI
+
+``` Shell
+    $ ng g service meu-servico
+```
+
+ou
+
+``` Shell
+    $ ng g s meu-servico
+```
+
 [angular]: https://angular.io/
 [node]: https://nodejs.org
 [es6]: http://es6-features.org/#Constants

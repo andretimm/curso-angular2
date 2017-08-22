@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
+import { CursosService } from './cursos.service';
+
 @Component({
   selector: 'app-cursos',
   templateUrl: './cursos.component.html',
@@ -9,10 +11,11 @@ export class CursosComponent implements OnInit {
 
   nomeRepo: string;
 
-  repos: string[] = ["curso-angular2","nativescript-rss","blog","byfe"];
+  repos: string[];
 
-  constructor() {
+  constructor(private cursosService : CursosService) {
     this.nomeRepo = "https://github.com/andretimm/";
+    this.repos = this.cursosService.getCursos();
   }
 
   ngOnInit() {
