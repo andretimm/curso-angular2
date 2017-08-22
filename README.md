@@ -27,6 +27,27 @@ Responsável por modificar elementos DOM e/ou seu comportamento.
 ### Diretiva
 Responsável por modificar elementos DOM e/ou seu comportamento.
 
+### Módulos
+Ajuda a organizar a aplicação e a modularizar.
+
+``` js
+@NgModule({
+  declarations: [
+    AppComponent
+  ],
+  imports: [
+    BrowserModule
+  ],
+  providers: [],
+  bootstrap: [AppComponent]
+})
+```
+* `declarations` : Todos os componentes, diretivas, factory ou pipe do meu módulo.
+* `imports` : Módulos importados para ser usado no meu módulos atual ou dentro de algum outro component.
+* `providers` : Serviços disponiveis para serem utilizados nos componentes declarados no módulo.
+* `bootstrap` : Encontrado somente no módulo raiz do projeto, indica qual componente deve ser instânciado ao ser executada a aplicação (container).
+* `exports` : Define quais componenetes do módulos vão ficar visível para outros módulos.
+
 ## Criando primeiro projeto
 
 ```shell
@@ -49,6 +70,17 @@ ou
 
 ``` Shell
     $ ng g c meu-component
+```
+#### Criar módulos com o CLI
+
+``` Shell
+    $ ng g module meu-modulo
+```
+
+ou
+
+``` Shell
+    $ ng g m meu-modulo
 ```
 
 [angular]: https://angular.io/
