@@ -7,7 +7,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CursosComponent implements OnInit {
 
-  constructor() { }
+  nomeRepo: string;
+
+  repos: string[] = ["curso-angular2","nativescript-rss","blog","byfe"];
+
+  constructor() {
+    this.nomeRepo = "https://github.com/andretimm/";
+  }
 
   ngOnInit() {
   }

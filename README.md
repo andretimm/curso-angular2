@@ -24,9 +24,6 @@ Responsável pela navegação.
 ### Diretiva
 Responsável por modificar elementos DOM e/ou seu comportamento.
 
-### Diretiva
-Responsável por modificar elementos DOM e/ou seu comportamento.
-
 ### Módulos
 Ajuda a organizar a aplicação e a modularizar.
 
@@ -47,6 +44,10 @@ Ajuda a organizar a aplicação e a modularizar.
 * `providers` : Serviços disponiveis para serem utilizados nos componentes declarados no módulo.
 * `bootstrap` : Encontrado somente no módulo raiz do projeto, indica qual componente deve ser instânciado ao ser executada a aplicação (container).
 * `exports` : Define quais componenetes do módulos vão ficar visível para outros módulos.
+
+### Templates 
+Contém os códigos html para ser utilizados nos componentes.
+
 
 ## Criando primeiro projeto
 

@@ -1,5 +1,11 @@
 <p>
-  cursos component!
+  Lista de projetos do repositório {{ nomeRepo }}
 </p>
 
 <app-curso-detalhe></app-curso-detalhe>
+
+<ul>
+  <li *ngFor="let repo of repos">
+    {{ repo }}
+  </li>
+</ul>
