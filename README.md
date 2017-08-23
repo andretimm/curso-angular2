@@ -55,6 +55,7 @@ Contém os códigos html para ser utilizados nos componentes.
 * Property binding : `[propriedade]="valor"`.
 * Two Way Data Binding : Valor do template e do componente atualizados ao mesmo tempo.
 * Class e Style Binding : Uma forma de `Property Binding` para css.
+* Event Binding : Binding de eventos, para fazer o binding se usa os parenteses : `(evento)`.
 
 ## Criando primeiro projeto
 
