@@ -53,7 +53,7 @@ Contém os códigos html para ser utilizados nos componentes.
 É a forma de associar informações do component para o template e vice-versa.
 * Interpolation : `{{ valor }}` onde `valor` é um objeto do componente.
 * Property binding : `[propriedade]="valor"`.
-* Two Way Data Binding : Valor do template e do componente atualizados ao mesmo tempo.
+* Two Way Data Binding : Valor do template e do componente atualizados ao mesmo tempo. `[(ngModel)]=propriedade`, para utilizar precisa importar o FormsModule.
 * Class e Style Binding : Uma forma de `Property Binding` para css.
 * Event Binding : Binding de eventos, para fazer o binding se usa os parenteses : `(evento)`.
 
