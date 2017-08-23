@@ -1,6 +1,7 @@
 # Treinamento de Angular 2+
-[Angular Oficial][angular]
-[ES 6][es6]
+* [Angular Oficial][angular]
+* [ES 6][es6]
+* [NG2 Bootstrap][ng2Bootstrao] Abstração do Bootstrap sem o JQuery.
 ## Ambiente de Desenvolvimento
 ### Requisitos
 * [Node Js][node]
@@ -53,6 +54,7 @@ Contém os códigos html para ser utilizados nos componentes.
 * Interpolation : `{{ valor }}` onde `valor` é um objeto do componente.
 * Property binding : `[propriedade]="valor"`.
 * Two Way Data Binding : Valor do template e do componente atualizados ao mesmo tempo.
+* Class e Style Binding : Uma forma de `Property Binding` para css.
 
 ## Criando primeiro projeto
 
@@ -104,3 +106,4 @@ ou
 [angular]: https://angular.io/
 [node]: https://nodejs.org
 [es6]: http://es6-features.org/#Constants
+[ng2Bootstrao]: http://valor-software.com/ngx-bootstrap/#/
