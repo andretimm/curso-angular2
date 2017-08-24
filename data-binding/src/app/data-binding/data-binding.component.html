@@ -130,7 +130,11 @@
   <article>
     <h3>Input/Output Property</h3>
 
-    <app-curso [nome]="nomeDoCurso"></app-curso>    
+    <app-curso [nome]="nomeDoCurso"></app-curso>  
+    
+    <contador valor="10"
+      (mudouValor)="onMudouValor($event)"
+      ></contador>
 
   </article>
 </section>
