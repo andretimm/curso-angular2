@@ -62,7 +62,8 @@ Contém os códigos html para ser utilizados nos componentes.
 * Event Binding : Binding de eventos, para fazer o binding se usa os parenteses : `(evento)`.
 * Input/Output : Serve para passar um valor para o compinente. Para Declarar que a variável se trata de um Input/Output basta coloca `@Input` ou `@Output` na sua declaração.
 * Acessando DOM : Se utilizada o decorator `@ViewChild('')` em uma variável do tipo `HTMLElement`. Dentro do `ViewChild` deve se passar como parâmetroo nome da variável declarada no template : `@ViewChild('minhaVar')`.
-## Criando primeiro projeto
+
+## Criando projeto com o CLI
 
 ```shell
     $ ng new nome-projeto
