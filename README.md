@@ -2,6 +2,7 @@
 * [Angular Oficial][angular]
 * [ES 6][es6]
 * [NG2 Bootstrap][ng2Bootstrao] Abstração do Bootstrap sem o JQuery.
+* [Materialize][material] Abstração do Materialize sem o JQuery.
 ## Ambiente de Desenvolvimento
 ### Requisitos
 * [Node Js][node]
@@ -148,9 +149,30 @@ Arquivos minificados e ofuscados.
     $ ng build --prod
 ```
 
+## Usando libs externas
+
+Exemplo Bootstrap:
+
+```shel
+    $ npm install --save bootstrap@next
+```
+Adicionar os arquivos necessários no `.angular-cli.json`, conforme exemplo :
+```JSON
+    "styles": [
+        "../node_modules/bootstrap/dist/css/bootstrap.css",
+        "styles.css"
+      ],
+      "scripts": [
+        "../node_modules/jquery/dist/jquery.js",
+        "../node_modules/bootstrap/dist/js/bootstrap.js"
+      ],
+```
+Apenas arquivos de fonte que são importados diretamente no arquivo `index.html`.
+
 [angular]: https://angular.io/
 [node]: https://nodejs.org
 [es6]: http://es6-features.org/#Constants
 [ng2Bootstrao]: http://valor-software.com/ngx-bootstrap/#/
+[material]: https://www.npmjs.com/package/angular2-materialize
 [jasmine]: https://jasmine.github.io/
 [protractor]: http://www.protractortest.org/
