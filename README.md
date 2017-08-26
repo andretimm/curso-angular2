@@ -24,7 +24,7 @@ Responsável pela comunicação dos componentes com o backend e injeção de cla
 Responsável pela navegação.
 
 ### Diretiva
-Responsável por modificar elementos DOM e/ou seu comportamento.
+São uma form de passar instruções para o template.
 
 ### Módulos
 Ajuda a organizar a aplicação e a modularizar.
