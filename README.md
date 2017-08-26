@@ -48,6 +48,10 @@ Ajuda a organizar a aplicação e a modularizar.
 
 ### Templates 
 Contém os códigos html para ser utilizados nos componentes.
+* No template pode ser definido variáveis, basta colocar dentro da sua tag `#nomeVar`, exemplo :
+```html
+    <input type="text" #valorInpur>
+```
 
 ### Data Binding 
 É a forma de associar informações do component para o template e vice-versa.
