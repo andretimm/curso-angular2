@@ -93,7 +93,7 @@ Para rodar o projeto no navegador, va ate a pasta do seu projeto e execute :
     $ ng serve
 ```
 
-#### Criar componentes com o CLI
+## Criar componentes com o CLI
 
 ``` Shell
     $ ng g component meu-component
@@ -104,7 +104,7 @@ ou
 ``` Shell
     $ ng g c meu-component
 ```
-#### Criar módulos com o CLI
+## Criar módulos com o CLI
 
 ``` Shell
     $ ng g module meu-modulo
@@ -116,7 +116,7 @@ ou
     $ ng g m meu-modulo
 ```
 
-#### Criar serviços com o CLI
+## Criar serviços com o CLI
 
 ``` Shell
     $ ng g service meu-servico
