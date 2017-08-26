@@ -128,6 +128,26 @@ ou
     $ ng g s meu-servico
 ```
 
+## Fazendo o Build do projeto
+
+#### Build de desenvolvimento
+É gerado o build dentro da pasta `/dist/`.
+Serve para tester a aplicação e debugar.
+```shell
+    $ ng build
+```
+ou 
+```shell
+    $ ng build --dev
+```
+
+#### Build de produção
+É gerado o build dentro da pasta `/dist/`.
+Arquivos minificados e ofuscados.
+```shell
+    $ ng build --prod
+```
+
 [angular]: https://angular.io/
 [node]: https://nodejs.org
 [es6]: http://es6-features.org/#Constants
