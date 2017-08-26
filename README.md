@@ -63,6 +63,24 @@ Contém os códigos html para ser utilizados nos componentes.
 * Input/Output : Serve para passar um valor para o compinente. Para Declarar que a variável se trata de um Input/Output basta coloca `@Input` ou `@Output` na sua declaração.
 * Acessando DOM : Se utilizada o decorator `@ViewChild('')` em uma variável do tipo `HTMLElement`. Dentro do `ViewChild` deve se passar como parâmetroo nome da variável declarada no template : `@ViewChild('minhaVar')`.
 
+# Comandos do Angular CLI
+
+```shel
+    $ ng lint
+```
+Escaneia o proejeto verificando as boas práticas do Angular.
+
+
+```shel
+    $ ng test
+```
+Executa os teste unitários com [Jasmine][jasmine].
+
+```shel
+    $ ng e2e
+```
+Executa os testes de integração/carregamento de dados com e2e do [Protractor][protractor].
+
 ## Criando projeto com o CLI
 
 ```shell
@@ -114,3 +132,5 @@ ou
 [node]: https://nodejs.org
 [es6]: http://es6-features.org/#Constants
 [ng2Bootstrao]: http://valor-software.com/ngx-bootstrap/#/
+[jasmine]: https://jasmine.github.io/
+[protractor]: http://www.protractortest.org/
