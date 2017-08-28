@@ -25,6 +25,7 @@ Responsável pela navegação.
 
 ### Diretiva
 São uma form de passar instruções para o template.
+* `*ngIf` : Mesmo comportamento do if, mas para o template.
 
 ### Módulos
 Ajuda a organizar a aplicação e a modularizar.
