@@ -28,6 +28,7 @@ São uma form de passar instruções para o template.
 * `*ngIf` : Mesmo comportamento do if, mas para o template. Não recomentado para mostrar e esconder muitos blocos, utilizar `hidden` nestes casos.
 * `ngSwitch` e `*ngSwitchCase` : Funciona como um bloco de `switch` dentro do template.
 * `*ngFor` : Laço de repetição no template para iterar um array.
+* `ngClass` : Mesmo comportamento de class bind. Deixando mais legivel quando tem várias classes.
 
 ### Módulos
 Ajuda a organizar a aplicação e a modularizar.
