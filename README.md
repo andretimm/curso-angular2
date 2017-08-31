@@ -134,6 +134,17 @@ ou
 ``` Shell
     $ ng g s meu-servico
 ```
+## Criar diretivas com o CLI
+
+``` Shell
+    $ ng g diretive minha-diretiva
+```
+
+ou
+
+``` Shell
+    $ ng g d minha-diretiva
+```
 
 ## Fazendo o Build do projeto
 
