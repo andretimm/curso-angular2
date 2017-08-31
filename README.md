@@ -29,6 +29,7 @@ São uma form de passar instruções para o template.
 * `ngSwitch` e `*ngSwitchCase` : Funciona como um bloco de `switch` dentro do template.
 * `*ngFor` : Laço de repetição no template para iterar um array.
 * `ngClass` : Mesmo comportamento de class bind. Deixando mais legivel quando tem várias classes.
+* `ngStyle` : Mesmo comportamento de stle bind. Deixando mais legivel quando tem várias styles.
 
 ### Módulos
 Ajuda a organizar a aplicação e a modularizar.
