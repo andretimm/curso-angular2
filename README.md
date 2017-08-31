@@ -30,6 +30,7 @@ São uma form de passar instruções para o template.
 * `*ngFor` : Laço de repetição no template para iterar um array.
 * `ngClass` : Mesmo comportamento de class bind. Deixando mais legivel quando tem várias classes.
 * `ngStyle` : Mesmo comportamento de stle bind. Deixando mais legivel quando tem várias styles.
+* `ng-content`: Serve para renderizar um conteúdo passado no template para o outro.
 
 ### Módulos
 Ajuda a organizar a aplicação e a modularizar.
